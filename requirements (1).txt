@@ -1,0 +1,14 @@
+flask==3.0.3
+flask-sqlalchemy==3.1.1
+flask-jwt-extended==4.6.0
+flask-migrate==4.0.7
+flask-cors==4.0.1
+python-dotenv==1.0.1
+werkzeug==3.0.3
+sqlalchemy==2.0.31
+
+# Para producción con PostgreSQL (descomentar cuando sea necesario)
+# psycopg2-binary==2.9.9
+
+# Para producción con Gunicorn
+gunicorn==22.0.0
